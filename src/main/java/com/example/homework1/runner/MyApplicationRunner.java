@@ -23,10 +23,10 @@ public class MyApplicationRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         List<Product> products = new ArrayList<>();
-        products.add(new Product(1,"Product1",5));
-        products.add(new Product(2,"Product2",10));
-        products.add(new Product(3,"Product3",15));
-        products.add(new Product(4,"Product4",20));
+        products.add(new Product(1,"All-new Amazon Fire TV Stick 4K streaming device, includes support for Wi-Fi 6, Dolby Vision/Atmos, free & live TV",50));
+        products.add(new Product(2,"Apple AirPods Pro (2nd Generation) Wireless Ear Buds with USB-C Charging, Up to 2X More Active Noise Cancelling Bluetooth Headphones, Transparency Mode, Adaptive Audio, Personalized Spatial Audio",270));
+        products.add(new Product(3,"NSIGNIA 32-inch Class F20 Series Smart HD 720p Fire TV with Alexa Voice Remote (NS-32F201NA23, 2022 Model)",80));
+        products.add(new Product(4,"Kindle Paperwhite (8 GB) – Now with a 6.8\" display and adjustable warm light – Black",140));
         productBean.setProductList(products);
     }
 }
